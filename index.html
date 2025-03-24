@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repair+</title>
+    <link rel="icon" type="image/x-icon" href="assets/repair.png"> <!-- Иконка -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-dark" href="index.html">Repair+</a>
+                    <!-- Гамбургер -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Гамбургер -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a href="#home" class="nav-link text-dark">Главная</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link text-dark">Услуги</a></li>
+                            <li class="nav-item"><a href="#news" class="nav-link text-dark">Новости</a></li>
+                            <li class="nav-item"><a href="#contacts" class="nav-link text-dark">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главная -->
+    <section id="home" class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-bold">Ремонт квартир с гарантией качества</h1>
+                    <p class="lead">Мы превращаем вашу квартиру в уютное и стильное пространство.</p>
+                    <a href="#contacts" class="btn btn-primary btn-lg">Вызвать замерщика</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="image-grid">
+                        <div class="image-container">
+                            <img src="assets/houseTo.jpg" alt="До ремонта" class="img-fluid rounded shadow">
+                            <div class="image-caption">До</div>
+                        </div>
+                        <div class="image-container">
+                            <img src="assets/houseAfter.jpg" alt="После ремонта" class="img-fluid rounded shadow">
+                            <div class="image-caption">После</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Наши услуги</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tools fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Ремонт под ключ</h5>
+                            <p class="card-text">Полный цикл работ от проекта до сдачи объекта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-bolt fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Электрика</h5>
+                            <p class="card-text">Профессиональный монтаж и замена электропроводки.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-paint-roller fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Дизайн интерьера</h5>
+                            <p class="card-text">Создание уникального дизайна для вашего дома.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-hammer fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Отделочные работы</h5>
+                            <p class="card-text">Качественная отделка стен, потолков и полов.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-faucet fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Сантехника</h5>
+                            <p class="card-text">Установка и замена сантехнического оборудования.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-bath fa-3x mb-3 text-primary"></i>
+                            <h5 class="card-title fw-bold">Ремонт ванных</h5>
+                            <p class="card-text">Современный ремонт ванных комнат под ключ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Новости -->
+<section id="news" class="news-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Новости и советы</h2>
+        
+        <!-- Новость 1 -->
+        <div class="news-item mb-4">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-3">
+                    <img src="assets/news1.jpg" class="img-fluid rounded" alt="Советы по ремонту">
+                </div>
+                <div class="col-md-9">
+                    <p id="text-date">19 марта 2025</p>
+                    <h3 class="mt-2 fw-bold ">Советы по ремонту</h3>
+                    <p class="text-muted">Ремонт — это всегда ответственный процесс, требующий тщательной подготовки. В этой статье мы расскажем, как правильно
+                    выбрать материалы для ремонта, чтобы они были качественными, долговечными и экологически безопасными. Вы узнаете, на что
+                    обращать внимание при покупке краски, обоев, напольных покрытий и других материалов, а также как избежать
+                    распространенных ошибок.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Новость 2 -->
+        <div class="news-item mb-4">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-3">
+                    <img src="assets/news2.jpg" class="img-fluid rounded" alt="Обзоры материалов">
+                </div>
+                <div class="col-md-9">
+                    <p id="text-date">20 марта 2025</p>
+                    <h3 class="mt-2 fw-bold">Обзоры материалов</h3>
+                    <p class="text-muted">Выбор материалов для отделки квартиры может быть сложным, особенно если вы не знаете, что именно вам нужно. В этой
+                    статье мы проведем обзор лучших материалов для отделки стен, потолков и полов. Вы узнаете о преимуществах и недостатках
+                    различных вариантов, таких как ламинат, паркет, керамическая плитка и декоративная штукатурка, чтобы сделать осознанный
+                    выбор.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Новость 3 -->
+        <div class="news-item mb-4">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-3">
+                    <img src="assets/news3.jpg" class="img-fluid rounded" alt="Примеры дизайн-проектов">
+                </div>
+                <div class="col-md-9">
+                    <p id="text-date">21 марта 2025</p>
+                    <h3 class="mt-2 fw-bold">Примеры дизайн-проектов</h3>
+                    <p class="text-muted">Ищете вдохновение для ремонта своей квартиры? В этой статье мы представим несколько примеров дизайн-проектов, которые
+                    помогут вам создать уютное и стильное пространство. Вы увидите, как можно сочетать разные стили, цвета и текстуры, чтобы
+                    добиться гармоничного интерьера. Мы также дадим советы по планировке и расстановке мебели.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Контакты -->
+    <section id="contacts" class="contacts-section py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Контакты</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h4 class="mb-4 fw-bold">Вызвать замерщика</h4>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Ваше имя</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Телефон</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="Введите ваш телефон" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">
+                                    <i class="fas fa-phone-alt me-2"></i>Вызвать замерщика
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h4 class="mb-4 fw-bold">Наши контакты</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">
+                                    <i class="fas fa-phone-alt me-2 text-primary"></i>
+                                    <strong>Телефон:</strong> +7 (123) 456-78-90
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-envelope me-2 text-primary"></i>
+                                    <strong>Email:</strong> info@remont-kvartir.ru
+                                </li>
+                                <li class="mb-3">
+                                    <i class="fas fa-map-marker-alt me-2 text-primary"></i>
+                                    <strong>Адрес:</strong> г. Тетюши, ул. 50 лет Октября, д. 5
+                                </li>
+                            </ul>
+                            <div class="map-container mt-4">
+                                <iframe src="https://yandex.ru/map-widget/v1/?ll=48.8363,54.9368&z=15" width="100%" height="300" frameborder="1" allowfullscreen="true" style="border-radius: 10px;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; Repair+. Все права защищены.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
